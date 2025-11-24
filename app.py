@@ -31,7 +31,7 @@ try to derive a possible **Google Discover Profile URL** from the entity MID.
 
 # Inputs
 api_key = st.text_input("Google API Key", type="password", help="Your Google Knowledge Graph Search API key.")
-entity_name = st.text_input("Entity name or brand", value="ndmais")
+entity_name = st.text_input("Entity name or brand", value="semrush")
 
 limit = st.slider("Number of results to fetch", min_value=1, max_value=10, value=5, step=1)
 
